@@ -1,0 +1,11 @@
+-
+  name: this is 1st play
+  hosts: webserver1
+  vars:
+    servicename: nginx
+
+  tasks:
+    -
+      name: "starting service using variable"
+      service: name={{ servicename }} state=started
+

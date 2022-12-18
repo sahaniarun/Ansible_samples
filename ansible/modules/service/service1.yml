@@ -1,0 +1,10 @@
+-
+  name: this is 1st play
+  hosts: webserver1
+  tasks:
+    -
+      name: "stop/start service"
+      service:
+        name: nginx
+        state: started
+

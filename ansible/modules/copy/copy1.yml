@@ -1,0 +1,7 @@
+-
+  name: this the 1st play
+  hosts: webserver1
+  tasks:
+    -
+      name: "create a blank file on webserver1"
+      copy: src=test.txt dest=/tmp/ owner=arun1 group=arun1 mode=0777

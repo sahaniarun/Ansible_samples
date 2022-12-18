@@ -1,0 +1,10 @@
+-
+  name:  this is 1st play
+  hosts: webserver1
+  tasks:
+    -
+      name: "user creation"
+      user: name="hari" state=present password="$6$uwpOH/5b.AjZJllD$qRx8QAursjI4i.8MEv0ly0a1jUOjeRHxDnjdrLXgqCfTBkYO/ODddRIZyDc3ersPdDuUFi3EpH0nai1sGh2FZ0"
+
+# mkpasswd -m sha-512
+

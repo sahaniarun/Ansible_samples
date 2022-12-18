@@ -1,0 +1,10 @@
+webserver1	ansible_host=192.168.56.107	ansible_connection=ssh ansible_port=22	ansible_user=root
+webserver2     ansible_host=192.168.56.107     ansible_connection=ssh ansible_port=22  ansible_user=root
+webserver3     ansible_host=192.168.56.107     ansible_connection=ssh ansible_port=22  ansible_user=root
+webserver4     ansible_host=192.168.56.107     ansible_connection=ssh ansible_port=22  ansible_user=root
+
+dbserver1 ansible_host=192.168.56.107     ansible_connection=ssh ansible_port=22  ansible_user=root
+dbserver2 ansible_host=192.168.56.108     ansible_connection=ssh ansible_port=22  ansible_user=root
+dbserver3 ansible_host=192.168.56.108     ansible_connection=ssh ansible_port=22  ansible_user=root
+dbserver4 ansible_host=192.168.56.107     ansible_connection=ssh ansible_port=22  ansible_user=root
+

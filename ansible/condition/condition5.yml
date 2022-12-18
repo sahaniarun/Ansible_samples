@@ -1,0 +1,11 @@
+-
+  name: this is 1st play
+  hosts: webserver1
+  vars:
+    age: 15
+  tasks:
+    -
+      name: "creating file using variable"
+      command: touch /tmp/range_value.txt
+      when: age > 10 and age < 18
+

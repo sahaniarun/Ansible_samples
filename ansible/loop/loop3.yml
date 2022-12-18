@@ -1,0 +1,12 @@
+-
+  name: this is 1st play
+  hosts: webserver1
+  vars:
+    pkg:
+      - vsftpd
+      - tree
+  tasks:
+    -
+      name: "Installing"
+      yum: name="{{ item }}" state=absent
+      with_items: "{{ pkg }}"

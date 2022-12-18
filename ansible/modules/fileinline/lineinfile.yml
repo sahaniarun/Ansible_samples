@@ -1,0 +1,7 @@
+-
+  name: this the test yml
+  hosts:  webserver1
+  tasks:
+    -
+      name: "test action"
+      lineinfile:  path=/tmp/test.txt line="arun"

@@ -1,0 +1,8 @@
+-
+  name: "this is 1st play"
+  hosts: webserver1
+  tasks:
+    - 
+      name:  "Create a file on server"
+      script: testScript.sh Arun
+

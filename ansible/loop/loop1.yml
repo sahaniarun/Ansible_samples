@@ -1,0 +1,11 @@
+-
+  name: this is 1st play
+  hosts: webserver1
+  tasks:
+    -
+      name: "Installing"
+      yum: name="tree" state=absent
+    
+    - 
+      name: "Installing"
+      yum: name="vsftpd" state=absent

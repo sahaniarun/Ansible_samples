@@ -1,0 +1,15 @@
+Nokia_C6:
+        RAM:
+              size: 4GB
+              price: 1000
+        
+        price: 20000
+        display: 6inch
+
+Samsung_f22:
+        RAM:
+              size: 6GB
+              price: 8000
+        
+        price: 22000
+        display: 5inch
